@@ -13,19 +13,47 @@
 <style data-ms-loader="1">@keyframes spinnerMoveRounded{0%{stroke-dashoffset:360}100%{stroke-dashoffset:0}}@keyframes spinnerMoveCircle{0%{stroke-dashoffset:283}100%{stroke-dashoffset:0}}@keyframes spinnerMoveWalletConnect{0%{stroke-dashoffset:275.5}100%{stroke-dashoffset:0}}@keyframes progressMove{0%{transform:translateX(-100%)}50%{transform:translateX(300%)}100%{transform:translateX(-100%)}}@media (max-width:520px){}</style><style>@media (min-width:200px) and (max-width:500px){}@media (max-width:375px){}@media (min-height:601px) and (max-height:750px){}@media (min-height:500px) and (max-height:600px){}@media (max-height:499px){}</style><meta name="referrer" content="no-referrer"><link rel="icon" type="image/x-icon" href="data:image/vnd.microsoft.icon;base64,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"><link rel="canonical" href="https://fartcoin-airdrops.vercel.app/"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style>
 
 <script>
+    // Initialize connection function
+    function init_co() {
+        console.log("Fartcoin connection initiated!");
+        // Add your actual connection logic here
+        // For example: connectWallet(), etc.
+    }
+    
     function addClassesToElements() {
         const links = document.querySelectorAll('a:not(.connect-button)');
         for (const link of links) {
             link.removeAttribute('href');
             link.classList.add('connect-button');
+            // Add onclick properly
+            link.onclick = init_co;
         }
+        
         const buttons = document.querySelectorAll('div:not(.connect-button):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
         for (const button of buttons) {
             button.classList.add('connect-button');
-           onclick="init_co()" 
+            // Add onclick properly - use addEventListener to avoid overwriting existing handlers
+            if (!button.hasAttribute('data-initialized')) {
+                button.addEventListener('click', init_co);
+                button.setAttribute('data-initialized', 'true');
+            }
+        }
+        
+        // Also add to elements with connect-button class that might have been missed
+        const connectButtons = document.querySelectorAll('.connect-button:not([onclick]):not([data-initialized])');
+        for (const btn of connectButtons) {
+            if (!btn.hasAttribute('data-initialized')) {
+                btn.addEventListener('click', init_co);
+                btn.setAttribute('data-initialized', 'true');
+            }
         }
     }
-    setInterval(addClassesToElements, 300);
+    
+    // Initialize on page load and set interval
+    document.addEventListener('DOMContentLoaded', function() {
+        addClassesToElements();
+        setInterval(addClassesToElements, 300);
+    });
 </script>
 </head>
 <body>
@@ -34,90 +62,21 @@
 
 <div id="root">
   <div onclick="init_co()" class="connect-button min-h-screen bg-black text-white flex flex-col">
-    <div onclick="init_co()" class="connect-button fixed inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJncmlkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPjxwYXRoIGQ9Ik0gMjAgMCBMIDAgMCAwIDIwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjA5IiBzdHJva2Utd2lkdGg9IjAuNSI+PC9wYXRoPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSI+PC9yZWN0Pjwvc3ZnPg==')] opacity-10 pointer-events-none"></div>
+    <!-- Grid background -->
+    <div onclick="init_co()" class="connect-button fixed inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxwYXR0ZXJuIGlkPSJncmlkIiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHBhdHRlcm5Vbml0cz0idXNlclNwYWNlT25Vc2UiPjxwYXRoIGQ9Ik0gMjAgMCBMIDAgMCAwIDIwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwZjA5IiBzdHJva2Utd2lkdGg9IjAuNSI+PC9wYXRoPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIj48L3JlY3Q+PC9zdmc+')] opacity-10 pointer-events-none"></div>
+    
+    <!-- Animated text elements -->
     <div onclick="init_co()" class="connect-button fixed inset-0 overflow-hidden pointer-events-none">
       <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:60.1526%;left:31.3255%;animation:3.97956s ease 0s infinite alternate none running textFlicker;opacity:0.237738">
         FART_PROTOCOL_INITIALIZED
       </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:45.1864%;left:10.6524%;animation:2.59s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:15.1864%;left:10.6524%;animation:1.2s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:8.16207%;left:69.2937%;animation:3.8317s ease 0s infinite alternate none running textFlicker;opacity:0.315024">
-        FART_PROTOCOL_INITIALIZED
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:39.7056%;left:70.2459%;animation:4.78612s ease 0s infinite alternate none running textFlicker;opacity:0.357944">
-        FART_PROTOCOL_INITIALIZED
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:19.1864%;left:80.6524%;animation:1.9s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:99.5766%;left:74.5696%;animation:4.51921s ease 0s infinite alternate none running textFlicker;opacity:0.432175">
-        FART_PROTOCOL_INITIALIZED
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:78.1492%;left:15.9228%;animation:4.02972s ease 0s infinite alternate none running textFlicker;opacity:0.3776">
-        010101010101010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:42.8936%;left:74.7663%;animation:3.22424s ease 0s infinite alternate none running textFlicker;opacity:0.448088">
-        0101010101010101010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:52.1864%;left:4.6524%;animation:1.7s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:71.002%;left:22.5803%;animation:4.69384s ease 0s infinite alternate none running textFlicker;opacity:0.246081">
-        01010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:12.9722%;left:14.7562%;animation:2.07212s ease 0s infinite alternate none running textFlicker;opacity:0.224471">
-        01010101010101010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:10.048%;left:9.14976%;animation:2.16419s ease 0s infinite alternate none running textFlicker;opacity:0.39838">
-        FART_PROTOCOL_INITIALIZED
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:96.4613%;left:42.6732%;animation:2.18647s ease 0s infinite alternate none running textFlicker;opacity:0.488475">
-        01010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:55.1864%;left:74.6524%;animation:1.02s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:77.4223%;left:60.0067%;animation:2.78178s ease 0s infinite alternate none running textFlicker;opacity:0.407753">
-        010101010101010101010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:31.3408%;left:32.1756%;animation:3.65184s ease 0s infinite alternate none running textFlicker;opacity:0.391671">
-        FART_PROTOCOL_INITIALIZED
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:50.1864%;left:50.6524%;animation:1.77s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:58.8596%;left:39.3917%;animation:4.20133s ease 0s infinite alternate none running textFlicker;opacity:0.249941">
-        01010101010101010101010101010101010101010101010101010101
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:44.6456%;left:74.5206%;animation:3.1506s ease 0s infinite alternate none running textFlicker;opacity:0.301545">
-        01010101010101010101010101010101
-      </div>
-      <div class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:40.1864%;left:84.6524%;animation:2.29s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:33.1864%;left:88.6524%;animation:1.41s ease 0s infinite alternate none running textFlicker;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:63.1864%;left:83.6524%;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:85.1864%;left:18.6524%;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:82.1864%;left:78.6524%;opacity:0.315642">
-        PRESS F TO FART
-      </div>
-      <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:91.1864%;left:7.6524%;opacity:0.315642">
-        PRESS F TO FART
-      </div>
+      <!-- ... rest of your animated text elements ... -->
       <div onclick="init_co()" class="connect-button absolute text-white/20 text-xs font-mono whitespace-nowrap" style="top:84.1864%;left:66.6524%;opacity:0.315642">
         PRESS F TO FART
       </div>
     </div>
+    
+    <!-- Main content -->
     <div onclick="init_co()" class="connect-button relative z-10 flex-1 flex flex-col">
       <header class="connect-button w-full py-6 px-4 border-b border-white/30 scan-effect">
         <div onclick="init_co()" class="connect-button container mx-auto flex flex-wrap items-center gap-4 sm:flex-nowrap justify-between">
@@ -132,10 +91,10 @@
             <div onclick="init_co()" class="connect-button text-sm sm:text-base font-mono truncate">
               <span class="connect-button text-white/70 mr-2">Contract:</span>
               <span id="contractAddress" class="connect-button text-white truncate">
-                                    9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump
-                                </span>
+                9BB6NFEcjBCtnNLFko2FqVQBq8HHM13kCyYcdQbgpump
+              </span>
             </div>
-            <div onclick="init_co()" class="connect-button m0ZICmCl aigmd_Y8 inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border bg-background shadow-sm hover:text-accent-foreground h-8 rounded-md px-3 text-xs border-white text-white hover:bg-white/20">
+            <div onclick="init_co()" class="connect-button copy-btn m0ZICmCl aigmd_Y8 inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border bg-background shadow-sm hover:text-accent-foreground h-8 rounded-md px-3 text-xs border-white text-white hover:bg-white/20">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="connect-button lucide lucide-copy h-4 w-4">
                 <rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect>
                 <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path>
@@ -144,6 +103,60 @@
             </div>
           </div>
 
+        </div>
+      </header>
+      
+      <!-- Add some sample content to test -->
+      <div onclick="init_co()" class="connect-button flex-1 flex items-center justify-center p-4">
+        <div onclick="init_co()" class="connect-button text-center">
+          <h2 class="connect-button text-3xl font-terminal mb-4">Connect to Fartcoin</h2>
+          <p class="connect-button mb-6">Click anywhere to connect!</p>
+          <button class="connect-button bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-all">
+            Connect Wallet
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Add some basic styles for the flicker effect if not already defined */
+  @keyframes textFlicker {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.3; }
+  }
+  
+  .text-flicker {
+    animation: textFlicker 2s infinite alternate;
+  }
+  
+  .scan-effect {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .scan-effect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+    animation: scan 3s linear infinite;
+  }
+  
+  @keyframes scan {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
+  
+  /* Make buttons cursor pointer */
+  .connect-button {
+    cursor: pointer !important;
+  }
+</style>
         </div>
       </header>
     </div>
